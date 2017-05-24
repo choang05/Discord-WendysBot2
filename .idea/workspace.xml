@@ -2,9 +2,64 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f9c27da5-a557-4d8d-94bf-172139732beb" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cogs/audio.py" afterPath="$PROJECT_DIR$/cogs/audio.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cogs/economy.py" afterPath="$PROJECT_DIR$/cogs/economy.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cogs/utils/settings.py" afterPath="$PROJECT_DIR$/cogs/utils/settings.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/red.py" afterPath="$PROJECT_DIR$/red.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cogs/trivia.py" afterPath="$PROJECT_DIR$/cogs/trivia.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/PyNaCl-1.0.1.dist-info/RECORD" afterPath="$PROJECT_DIR$/lib/PyNaCl-1.0.1.dist-info/RECORD" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/PyNaCl-1.0.1.dist-info/WHEEL" afterPath="$PROJECT_DIR$/lib/PyNaCl-1.0.1.dist-info/WHEEL" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/aiohttp/_websocket.c" afterPath="$PROJECT_DIR$/lib/aiohttp/_websocket.c" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/async_timeout-1.2.1.dist-info/RECORD" afterPath="$PROJECT_DIR$/lib/async_timeout-1.2.1.dist-info/RECORD" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/cffi-1.10.0.dist-info/RECORD" afterPath="$PROJECT_DIR$/lib/cffi-1.10.0.dist-info/RECORD" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/cffi-1.10.0.dist-info/WHEEL" afterPath="$PROJECT_DIR$/lib/cffi-1.10.0.dist-info/WHEEL" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/chardet-3.0.3.dist-info/RECORD" afterPath="$PROJECT_DIR$/lib/chardet-3.0.3.dist-info/RECORD" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/discord/__init__.py" afterPath="$PROJECT_DIR$/lib/discord/__init__.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/discord/calls.py" afterPath="$PROJECT_DIR$/lib/discord/calls.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/discord/channel.py" afterPath="$PROJECT_DIR$/lib/discord/channel.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/discord/client.py" afterPath="$PROJECT_DIR$/lib/discord/client.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/discord/colour.py" afterPath="$PROJECT_DIR$/lib/discord/colour.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/discord/compat.py" afterPath="$PROJECT_DIR$/lib/discord/compat.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/discord/embeds.py" afterPath="$PROJECT_DIR$/lib/discord/embeds.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/discord/emoji.py" afterPath="$PROJECT_DIR$/lib/discord/emoji.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/discord/enums.py" afterPath="$PROJECT_DIR$/lib/discord/enums.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/discord/errors.py" afterPath="$PROJECT_DIR$/lib/discord/errors.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/discord/ext/__init__.py" afterPath="$PROJECT_DIR$/lib/discord/ext/__init__.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/discord/ext/commands/__init__.py" afterPath="$PROJECT_DIR$/lib/discord/ext/commands/__init__.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/discord/ext/commands/bot.py" afterPath="$PROJECT_DIR$/lib/discord/ext/commands/bot.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/discord/ext/commands/context.py" afterPath="$PROJECT_DIR$/lib/discord/ext/commands/context.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/discord/ext/commands/converter.py" afterPath="$PROJECT_DIR$/lib/discord/ext/commands/converter.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/discord/ext/commands/cooldowns.py" afterPath="$PROJECT_DIR$/lib/discord/ext/commands/cooldowns.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/discord/ext/commands/core.py" afterPath="$PROJECT_DIR$/lib/discord/ext/commands/core.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/discord/ext/commands/errors.py" afterPath="$PROJECT_DIR$/lib/discord/ext/commands/errors.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/discord/ext/commands/formatter.py" afterPath="$PROJECT_DIR$/lib/discord/ext/commands/formatter.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/discord/ext/commands/view.py" afterPath="$PROJECT_DIR$/lib/discord/ext/commands/view.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/discord/game.py" afterPath="$PROJECT_DIR$/lib/discord/game.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/discord/gateway.py" afterPath="$PROJECT_DIR$/lib/discord/gateway.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/discord/http.py" afterPath="$PROJECT_DIR$/lib/discord/http.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/discord/invite.py" afterPath="$PROJECT_DIR$/lib/discord/invite.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/discord/iterators.py" afterPath="$PROJECT_DIR$/lib/discord/iterators.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/discord/member.py" afterPath="$PROJECT_DIR$/lib/discord/member.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/discord/message.py" afterPath="$PROJECT_DIR$/lib/discord/message.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/discord/mixins.py" afterPath="$PROJECT_DIR$/lib/discord/mixins.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/discord/object.py" afterPath="$PROJECT_DIR$/lib/discord/object.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/discord/opus.py" afterPath="$PROJECT_DIR$/lib/discord/opus.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/discord/permissions.py" afterPath="$PROJECT_DIR$/lib/discord/permissions.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/discord/reaction.py" afterPath="$PROJECT_DIR$/lib/discord/reaction.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/discord/role.py" afterPath="$PROJECT_DIR$/lib/discord/role.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/discord/server.py" afterPath="$PROJECT_DIR$/lib/discord/server.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/discord/state.py" afterPath="$PROJECT_DIR$/lib/discord/state.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/discord/user.py" afterPath="$PROJECT_DIR$/lib/discord/user.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/discord/utils.py" afterPath="$PROJECT_DIR$/lib/discord/utils.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/discord/voice_client.py" afterPath="$PROJECT_DIR$/lib/discord/voice_client.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/multidict-2.1.5.dist-info/RECORD" afterPath="$PROJECT_DIR$/lib/multidict-2.1.5.dist-info/RECORD" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/multidict-2.1.5.dist-info/WHEEL" afterPath="$PROJECT_DIR$/lib/multidict-2.1.5.dist-info/WHEEL" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/multidict/_multidict.c" afterPath="$PROJECT_DIR$/lib/multidict/_multidict.c" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/pip-9.0.1.dist-info/RECORD" afterPath="$PROJECT_DIR$/lib/pip-9.0.1.dist-info/RECORD" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/pycparser/c_ast.py" afterPath="$PROJECT_DIR$/lib/pycparser/c_ast.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/requests-2.14.2.dist-info/RECORD" afterPath="$PROJECT_DIR$/lib/requests-2.14.2.dist-info/RECORD" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/six-1.10.0.dist-info/RECORD" afterPath="$PROJECT_DIR$/lib/six-1.10.0.dist-info/RECORD" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/websockets-3.3.dist-info/RECORD" afterPath="$PROJECT_DIR$/lib/websockets-3.3.dist-info/RECORD" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/youtube_dl-2017.5.23.dist-info/RECORD" afterPath="$PROJECT_DIR$/lib/youtube_dl-2017.5.23.dist-info/RECORD" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -14,14 +69,129 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FileEditorManager">
+    <leaf>
+      <file leaf-file-name="trivia.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/cogs/trivia.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="4862">
+              <caret line="286" column="0" lean-forward="false" selection-start-line="286" selection-start-column="0" selection-end-line="286" selection-end-column="0" />
+              <folding>
+                <element signature="e#0#32#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="chad.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/cogs/chad.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="204">
+              <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+              <folding>
+                <element signature="e#0#14#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="general.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/cogs/general.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding>
+                <element signature="e#0#14#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="audio.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/cogs/audio.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-199">
+              <caret line="1326" column="18" lean-forward="false" selection-start-line="1326" selection-start-column="10" selection-end-line="1326" selection-end-column="18" />
+              <folding>
+                <element signature="e#0#14#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="kaomojis.txt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/data/chad/kaomojis.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-638">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="economy.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/cogs/economy.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="289">
+              <caret line="113" column="0" lean-forward="false" selection-start-line="113" selection-start-column="0" selection-end-line="113" selection-end-column="0" />
+              <folding>
+                <element signature="e#0#14#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>red</find>
+      <find>seconds</find>
+      <find>seconds to an</find>
+      <find>send_tab</find>
+      <find>points to</find>
+      <find>seconds to</find>
+      <find>rank</find>
+      <find>payday</find>
+      <find>slot</find>
+      <find>result</find>
+      <find>sing</find>
+      <find>remove</find>
+      <find>skip</find>
+      <find>play</find>
+      <find>_play</find>
+      <find>.play</find>
+      <find>def play</find>
+    </findStrings>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/cogs/economy.py" />
+        <option value="$PROJECT_DIR$/cogs/chad.py" />
+        <option value="$PROJECT_DIR$/cogs/trivia.py" />
+        <option value="$PROJECT_DIR$/cogs/audio.py" />
+      </list>
+    </option>
+  </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="276" />
-    <option name="y" value="22" />
-    <option name="width" value="1540" />
+    <option name="x" value="236" />
+    <option name="y" value="34" />
+    <option name="width" value="1634" />
     <option name="height" value="1000" />
+  </component>
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="1" id="Add" />
   </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
@@ -50,14 +220,47 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Discord-WendysBot2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Discord-WendysBot2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="data" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Discord-WendysBot2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Discord-WendysBot2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="cogs" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="Scratches" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\chadh\Documents\GitHub\Discord-WendysBot2\data\chad" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -177,25 +380,25 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="276" y="22" width="1540" height="1000" extended-state="0" />
+    <frame x="236" y="34" width="1634" height="1000" extended-state="0" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2354759" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32921347" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32921347" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -205,5 +408,65 @@
   <component name="XDebuggerManager">
     <breakpoint-manager />
     <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/data/chad/kaomojis.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-638">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cogs/general.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#14#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cogs/economy.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="113" column="0" lean-forward="false" selection-start-line="113" selection-start-column="0" selection-end-line="113" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#14#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cogs/trivia.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4862">
+          <caret line="286" column="0" lean-forward="false" selection-start-line="286" selection-start-column="0" selection-end-line="286" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#32#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cogs/chad.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#14#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cogs/audio.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-199">
+          <caret line="1326" column="18" lean-forward="false" selection-start-line="1326" selection-start-column="10" selection-end-line="1326" selection-end-column="18" />
+          <folding>
+            <element signature="e#0#14#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
   </component>
 </project>
