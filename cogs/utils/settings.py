@@ -19,8 +19,8 @@ class Settings:
             "PASSWORD": None,
             "OWNER": None,
             "PREFIXES": [],
-            "default": {"ADMIN_ROLE": "Transistor",
-                        "MOD_ROLE": "Process",
+            "default": {"ADMIN_ROLE": "Admin",
+                        "MOD_ROLE": "Mod",
                         "PREFIXES": []}
                         }
         self._memory_only = False

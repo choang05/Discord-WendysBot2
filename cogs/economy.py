@@ -75,11 +75,11 @@ PAYOUTS = {
         "phrase" : "JACKPOT! 226! Your bid has been multiplied * 2500!"
     },
     (SMReel.flc, SMReel.flc, SMReel.flc) : {
-        "payout" : lambda x: x + 1000,
+        "payout" : lambda x: x + 10000,
         "phrase" : "4LC! +1000!"
     },
     (SMReel.cherries, SMReel.cherries, SMReel.cherries) : {
-        "payout" : lambda x: x + 800,
+        "payout" : lambda x: x + 8000,
         "phrase" : "Three cherries! +800!"
     },
     (SMReel.two, SMReel.six) : {
@@ -91,7 +91,7 @@ PAYOUTS = {
         "phrase" : "Two cherries! Your bid has been multiplied * 3!"
     },
     "3 symbols" : {
-        "payout" : lambda x: x + 500,
+        "payout" : lambda x: x + 5000,
         "phrase" : "Three symbols! +500!"
     },
     "2 symbols" : {
@@ -306,7 +306,7 @@ class Economy:
 
     @_bank.command(pass_context=True, no_pm=True)
     async def register(self, ctx):
-        """Registers an account at the Twentysix bank"""
+        """Registers an account at the Wendys bank"""
         settings = self.settings[ctx.message.server.id]
         author = ctx.message.author
         credits = 0
@@ -318,7 +318,7 @@ class Economy:
                                "".format(author.mention, account.balance))
         except AccountAlreadyExists:
             await self.bot.say("{} You already have an account at the"
-                               " Twentysix bank.".format(author.mention))
+                               " Wendys bank.".format(author.mention))
 
     @_bank.command(pass_context=True)
     async def balance(self, ctx, user: discord.Member=None):
@@ -332,7 +332,7 @@ class Economy:
                     user.mention, self.bank.get_balance(user)))
             except NoAccount:
                 await self.bot.say("{} You don't have an account at the"
-                                   " Twentysix bank. Type `{}bank register`"
+                                   " Wendys bank. Type `{}bank register`"
                                    " to open one.".format(user.mention,
                                                           ctx.prefix))
         else:
@@ -369,9 +369,9 @@ class Economy:
         Passing positive and negative values will add/remove credits instead
 
         Examples:
-            bank set @Twentysix 26 - Sets 26 credits
-            bank set @Twentysix +2 - Adds 2 credits
-            bank set @Twentysix -6 - Removes 6 credits"""
+            bank set @Wendys 26 - Sets 26 credits
+            bank set @Wendys +2 - Adds 2 credits
+            bank set @Wendys -6 - Removes 6 credits"""
         author = ctx.message.author
         try:
             if credits.operation == "deposit":
@@ -526,7 +526,7 @@ class Economy:
     @commands.command()
     async def payouts(self):
         """Shows slot machine payouts"""
-        await self.bot.whisper(SLOT_PAYOUTS_MSG)
+        await self.bot.say(SLOT_PAYOUTS_MSG)
 
     @commands.command(pass_context=True, no_pm=True)
     async def slot(self, ctx, bid: int):
