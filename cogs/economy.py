@@ -417,6 +417,13 @@ class Economy:
         author = ctx.message.author
         server = author.server
         id = author.id
+
+        #   CHAD - Check if the command is used in the right channel
+        casinoChannelID =  ctx.message.channel.id
+        if casinoChannelID != server.get_channel('316714986812604416').id:
+            await self.bot.say("Go to the #casino channel to use this command!")
+            return
+
         if self.bank.account_exists(author):
             if id in self.payday_register[server.id]:
                 seconds = abs(self.payday_register[server.id][
@@ -534,6 +541,13 @@ class Economy:
         author = ctx.message.author
         server = author.server
         settings = self.settings[server.id]
+
+        #   CHAD - Check if the command is used in the right channel
+        casinoChannelID =  ctx.message.channel.id
+        if casinoChannelID != server.get_channel('316714986812604416').id:
+            await self.bot.say("Go to the #casino channel to use this command!")
+            return
+
         valid_bid = settings["SLOT_MIN"] <= bid and bid <= settings["SLOT_MAX"]
         slot_time = settings["SLOT_TIME"]
         last_slot = self.slot_register.get(author.id)

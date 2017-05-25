@@ -3,63 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="f9c27da5-a557-4d8d-94bf-172139732beb" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cogs/audio.py" afterPath="$PROJECT_DIR$/cogs/audio.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cogs/chad.py" afterPath="$PROJECT_DIR$/cogs/chad.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cogs/economy.py" afterPath="$PROJECT_DIR$/cogs/economy.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/cogs/trivia.py" afterPath="$PROJECT_DIR$/cogs/trivia.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/PyNaCl-1.0.1.dist-info/RECORD" afterPath="$PROJECT_DIR$/lib/PyNaCl-1.0.1.dist-info/RECORD" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/PyNaCl-1.0.1.dist-info/WHEEL" afterPath="$PROJECT_DIR$/lib/PyNaCl-1.0.1.dist-info/WHEEL" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/aiohttp/_websocket.c" afterPath="$PROJECT_DIR$/lib/aiohttp/_websocket.c" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/async_timeout-1.2.1.dist-info/RECORD" afterPath="$PROJECT_DIR$/lib/async_timeout-1.2.1.dist-info/RECORD" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/cffi-1.10.0.dist-info/RECORD" afterPath="$PROJECT_DIR$/lib/cffi-1.10.0.dist-info/RECORD" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/cffi-1.10.0.dist-info/WHEEL" afterPath="$PROJECT_DIR$/lib/cffi-1.10.0.dist-info/WHEEL" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/chardet-3.0.3.dist-info/RECORD" afterPath="$PROJECT_DIR$/lib/chardet-3.0.3.dist-info/RECORD" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/discord/__init__.py" afterPath="$PROJECT_DIR$/lib/discord/__init__.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/discord/calls.py" afterPath="$PROJECT_DIR$/lib/discord/calls.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/discord/channel.py" afterPath="$PROJECT_DIR$/lib/discord/channel.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/discord/client.py" afterPath="$PROJECT_DIR$/lib/discord/client.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/discord/colour.py" afterPath="$PROJECT_DIR$/lib/discord/colour.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/discord/compat.py" afterPath="$PROJECT_DIR$/lib/discord/compat.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/discord/embeds.py" afterPath="$PROJECT_DIR$/lib/discord/embeds.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/discord/emoji.py" afterPath="$PROJECT_DIR$/lib/discord/emoji.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/discord/enums.py" afterPath="$PROJECT_DIR$/lib/discord/enums.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/discord/errors.py" afterPath="$PROJECT_DIR$/lib/discord/errors.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/discord/ext/__init__.py" afterPath="$PROJECT_DIR$/lib/discord/ext/__init__.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/discord/ext/commands/__init__.py" afterPath="$PROJECT_DIR$/lib/discord/ext/commands/__init__.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/discord/ext/commands/bot.py" afterPath="$PROJECT_DIR$/lib/discord/ext/commands/bot.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/discord/ext/commands/context.py" afterPath="$PROJECT_DIR$/lib/discord/ext/commands/context.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/discord/ext/commands/converter.py" afterPath="$PROJECT_DIR$/lib/discord/ext/commands/converter.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/discord/ext/commands/cooldowns.py" afterPath="$PROJECT_DIR$/lib/discord/ext/commands/cooldowns.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/discord/ext/commands/core.py" afterPath="$PROJECT_DIR$/lib/discord/ext/commands/core.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/discord/ext/commands/errors.py" afterPath="$PROJECT_DIR$/lib/discord/ext/commands/errors.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/discord/ext/commands/formatter.py" afterPath="$PROJECT_DIR$/lib/discord/ext/commands/formatter.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/discord/ext/commands/view.py" afterPath="$PROJECT_DIR$/lib/discord/ext/commands/view.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/discord/game.py" afterPath="$PROJECT_DIR$/lib/discord/game.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/discord/gateway.py" afterPath="$PROJECT_DIR$/lib/discord/gateway.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/discord/http.py" afterPath="$PROJECT_DIR$/lib/discord/http.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/discord/invite.py" afterPath="$PROJECT_DIR$/lib/discord/invite.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/discord/iterators.py" afterPath="$PROJECT_DIR$/lib/discord/iterators.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/discord/member.py" afterPath="$PROJECT_DIR$/lib/discord/member.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/discord/message.py" afterPath="$PROJECT_DIR$/lib/discord/message.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/discord/mixins.py" afterPath="$PROJECT_DIR$/lib/discord/mixins.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/discord/object.py" afterPath="$PROJECT_DIR$/lib/discord/object.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/discord/opus.py" afterPath="$PROJECT_DIR$/lib/discord/opus.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/discord/permissions.py" afterPath="$PROJECT_DIR$/lib/discord/permissions.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/discord/reaction.py" afterPath="$PROJECT_DIR$/lib/discord/reaction.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/discord/role.py" afterPath="$PROJECT_DIR$/lib/discord/role.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/discord/server.py" afterPath="$PROJECT_DIR$/lib/discord/server.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/discord/state.py" afterPath="$PROJECT_DIR$/lib/discord/state.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/discord/user.py" afterPath="$PROJECT_DIR$/lib/discord/user.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/discord/utils.py" afterPath="$PROJECT_DIR$/lib/discord/utils.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/discord/voice_client.py" afterPath="$PROJECT_DIR$/lib/discord/voice_client.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/multidict-2.1.5.dist-info/RECORD" afterPath="$PROJECT_DIR$/lib/multidict-2.1.5.dist-info/RECORD" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/multidict-2.1.5.dist-info/WHEEL" afterPath="$PROJECT_DIR$/lib/multidict-2.1.5.dist-info/WHEEL" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/multidict/_multidict.c" afterPath="$PROJECT_DIR$/lib/multidict/_multidict.c" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/pip-9.0.1.dist-info/RECORD" afterPath="$PROJECT_DIR$/lib/pip-9.0.1.dist-info/RECORD" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/pycparser/c_ast.py" afterPath="$PROJECT_DIR$/lib/pycparser/c_ast.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/requests-2.14.2.dist-info/RECORD" afterPath="$PROJECT_DIR$/lib/requests-2.14.2.dist-info/RECORD" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/six-1.10.0.dist-info/RECORD" afterPath="$PROJECT_DIR$/lib/six-1.10.0.dist-info/RECORD" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/websockets-3.3.dist-info/RECORD" afterPath="$PROJECT_DIR$/lib/websockets-3.3.dist-info/RECORD" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/youtube_dl-2017.5.23.dist-info/RECORD" afterPath="$PROJECT_DIR$/lib/youtube_dl-2017.5.23.dist-info/RECORD" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -70,12 +16,12 @@
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="trivia.py" pinned="false" current-in-tab="false">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="trivia.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/cogs/trivia.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="4862">
-              <caret line="286" column="0" lean-forward="false" selection-start-line="286" selection-start-column="0" selection-end-line="286" selection-end-column="0" />
+            <state relative-caret-position="374">
+              <caret line="101" column="53" lean-forward="false" selection-start-line="101" selection-start-column="53" selection-end-line="101" selection-end-column="53" />
               <folding>
                 <element signature="e#0#32#0" expanded="true" />
               </folding>
@@ -87,9 +33,9 @@
         <entry file="file://$PROJECT_DIR$/cogs/chad.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="204">
-              <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+              <caret line="21" column="22" lean-forward="false" selection-start-line="21" selection-start-column="22" selection-end-line="21" selection-end-column="22" />
               <folding>
-                <element signature="e#0#14#0" expanded="true" />
+                <element signature="e#38#52#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -107,11 +53,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="audio.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="audio.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/cogs/audio.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-199">
-              <caret line="1326" column="18" lean-forward="false" selection-start-line="1326" selection-start-column="10" selection-end-line="1326" selection-end-column="18" />
+            <state relative-caret-position="391">
+              <caret line="1348" column="36" lean-forward="false" selection-start-line="1348" selection-start-column="36" selection-end-line="1348" selection-end-column="36" />
               <folding>
                 <element signature="e#0#14#0" expanded="true" />
               </folding>
@@ -119,11 +65,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="kaomojis.txt" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/data/chad/kaomojis.txt">
+      <file leaf-file-name="kaomojis.json" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/data/chad/kaomojis.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-638">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state relative-caret-position="13957">
+              <caret line="821" column="4" lean-forward="false" selection-start-line="821" selection-start-column="4" selection-end-line="821" selection-end-column="28" />
               <folding />
             </state>
           </provider>
@@ -132,8 +78,20 @@
       <file leaf-file-name="economy.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/cogs/economy.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="113" column="0" lean-forward="false" selection-start-line="113" selection-start-column="0" selection-end-line="113" selection-end-column="0" />
+            <state relative-caret-position="260">
+              <caret line="544" column="0" lean-forward="false" selection-start-line="544" selection-start-column="0" selection-end-line="548" selection-end-column="18" />
+              <folding>
+                <element signature="e#0#14#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="red.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/red.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-9384">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding>
                 <element signature="e#0#14#0" expanded="true" />
               </folding>
@@ -159,7 +117,6 @@
       <find>points to</find>
       <find>seconds to</find>
       <find>rank</find>
-      <find>payday</find>
       <find>slot</find>
       <find>result</find>
       <find>sing</find>
@@ -169,6 +126,14 @@
       <find>_play</find>
       <find>.play</find>
       <find>def play</find>
+      <find>author</find>
+      <find>1 poi</find>
+      <find>msg +=</find>
+      <find>msg</find>
+      <find>list</find>
+      <find>message</find>
+      <find>payday</find>
+      <find>chad</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -177,16 +142,17 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/cogs/economy.py" />
-        <option value="$PROJECT_DIR$/cogs/chad.py" />
-        <option value="$PROJECT_DIR$/cogs/trivia.py" />
         <option value="$PROJECT_DIR$/cogs/audio.py" />
+        <option value="$PROJECT_DIR$/data/chad/kaomojis.json" />
+        <option value="$PROJECT_DIR$/cogs/chad.py" />
+        <option value="$PROJECT_DIR$/cogs/economy.py" />
+        <option value="$PROJECT_DIR$/cogs/trivia.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="236" />
-    <option name="y" value="34" />
+    <option name="x" value="173" />
+    <option name="y" value="40" />
     <option name="width" value="1634" />
     <option name="height" value="1000" />
   </component>
@@ -244,6 +210,42 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="data" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="customcom" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Discord-WendysBot2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Discord-WendysBot2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="data" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="chad" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Discord-WendysBot2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Discord-WendysBot2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="cogs" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -256,9 +258,14 @@
   </component>
   <component name="PropertiesComponent">
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\chadh\Documents\GitHub\Discord-WendysBot2\data\chad" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\chadh\Documents\GitHub\Discord-WendysBot2\data\customcom" />
       <recent name="C:\Users\chadh\Documents\GitHub\Discord-WendysBot2\data\chad" />
     </key>
   </component>
@@ -380,12 +387,11 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="236" y="34" width="1634" height="1000" extended-state="0" />
+    <frame x="173" y="40" width="1634" height="1000" extended-state="0" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2354759" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32921347" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32921347" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -399,6 +405,7 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32921347" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -410,9 +417,125 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/cogs/trivia.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4692">
+          <caret line="286" column="0" lean-forward="false" selection-start-line="286" selection-start-column="0" selection-end-line="286" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#32#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cogs/chad.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+          <folding>
+            <element signature="e#38#52#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cogs/general.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#14#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/data/chad/kaomojis.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-638">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cogs/economy.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1700">
+          <caret line="113" column="0" lean-forward="false" selection-start-line="113" selection-start-column="0" selection-end-line="113" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#14#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cogs/audio.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="22627">
+          <caret line="1350" column="18" lean-forward="true" selection-start-line="1350" selection-start-column="18" selection-end-line="1350" selection-end-column="18" />
+          <folding>
+            <element signature="e#0#14#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cogs/trivia.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4692">
+          <caret line="286" column="0" lean-forward="false" selection-start-line="286" selection-start-column="0" selection-end-line="286" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#32#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cogs/chad.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+          <folding>
+            <element signature="e#38#52#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cogs/general.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#14#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/chad/kaomojis.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cogs/economy.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1700">
+          <caret line="113" column="0" lean-forward="false" selection-start-line="113" selection-start-column="0" selection-end-line="113" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#14#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cogs/audio.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="22219">
+          <caret line="1326" column="18" lean-forward="false" selection-start-line="1326" selection-start-column="10" selection-end-line="1326" selection-end-column="18" />
+          <folding>
+            <element signature="e#0#14#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/chad/kaomojis.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
@@ -428,10 +551,48 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/cogs/audio.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="1348" column="36" lean-forward="false" selection-start-line="1348" selection-start-column="36" selection-end-line="1348" selection-end-column="36" />
+          <folding>
+            <element signature="e#0#14#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/chad/kaomojis.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="13957">
+          <caret line="821" column="4" lean-forward="false" selection-start-line="821" selection-start-column="4" selection-end-line="821" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cogs/chad.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="21" column="22" lean-forward="false" selection-start-line="21" selection-start-column="22" selection-end-line="21" selection-end-column="22" />
+          <folding>
+            <element signature="e#38#52#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/red.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-9384">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#14#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/cogs/economy.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="113" column="0" lean-forward="false" selection-start-line="113" selection-start-column="0" selection-end-line="113" selection-end-column="0" />
+        <state relative-caret-position="260">
+          <caret line="544" column="0" lean-forward="false" selection-start-line="544" selection-start-column="0" selection-end-line="548" selection-end-column="18" />
           <folding>
             <element signature="e#0#14#0" expanded="true" />
           </folding>
@@ -440,30 +601,10 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/cogs/trivia.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4862">
-          <caret line="286" column="0" lean-forward="false" selection-start-line="286" selection-start-column="0" selection-end-line="286" selection-end-column="0" />
+        <state relative-caret-position="374">
+          <caret line="101" column="53" lean-forward="false" selection-start-line="101" selection-start-column="53" selection-end-line="101" selection-end-column="53" />
           <folding>
             <element signature="e#0#32#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cogs/chad.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#14#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cogs/audio.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-199">
-          <caret line="1326" column="18" lean-forward="false" selection-start-line="1326" selection-start-column="10" selection-end-line="1326" selection-end-column="18" />
-          <folding>
-            <element signature="e#0#14#0" expanded="true" />
           </folding>
         </state>
       </provider>

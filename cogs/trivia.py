@@ -10,6 +10,9 @@ import os
 import asyncio
 import chardet
 
+#   CHAD - imports
+# from .chad import  GetRandomKaomoji
+
 DEFAULTS = {"MAX_SCORE"    : 10,
             "TIMEOUT"      : 120,
             "DELAY"        : 15,
@@ -35,7 +38,7 @@ class Trivia:
         server = ctx.message.server
         if ctx.invoked_subcommand is None:
             settings = self.settings[server.id]
-            msg = box("Red gains points: {BOT_PLAYS}\n"
+            msg = box("Wendys gains points: {BOT_PLAYS}\n"
                       "Seconds to answer: {DELAY}\n"
                       "Points to win: {MAX_SCORE}\n"
                       "Reveal answer on timeout: {REVEAL_ANSWER}\n"
@@ -67,14 +70,14 @@ class Trivia:
 
     @triviaset.command(pass_context=True)
     async def botplays(self, ctx):
-        """Red gains points"""
+        """Wendys gets points"""
         server = ctx.message.server
         if self.settings[server.id]["BOT_PLAYS"]:
             self.settings[server.id]["BOT_PLAYS"] = False
-            await self.bot.say("Alright, I won't embarass you at trivia anymore.")
+            await self.bot.say("Alright, I won't embarrass you at trivia anymore.")
         else:
             self.settings[server.id]["BOT_PLAYS"] = True
-            await self.bot.say("I'll gain a point everytime you don't answer in time.")
+            await self.bot.say("I'll gain a point every time you don't answer in time.")
         self.save_settings()
 
     @triviaset.command(pass_context=True)
@@ -95,6 +98,13 @@ class Trivia:
         message = ctx.message
         server = message.server
         session = self.get_trivia_by_channel(message.channel)
+
+        #   CHAD - Check if the command is used in the right channel
+        channelID =  ctx.message.channel.id
+        if channelID != server.get_channel('316827848511848458').id:
+            await self.bot.say("Go to the #trivia channel to use this command!")
+            return
+
         if not session:
             try:
                 trivia_list = self.parse_trivia_list(list_name)
@@ -107,6 +117,13 @@ class Trivia:
                 settings = self.settings[server.id]
                 t = TriviaSession(self.bot, trivia_list, message, settings)
                 self.trivia_sessions.append(t)
+
+                #   Show trivia settings
+                msg = box("-----    RULES   -----\n\n"
+                          "{DELAY} seconds to answer the question. \n"
+                          "{MAX_SCORE} points to win the game. \n"
+                          "".format(**settings))
+                await self.bot.say(msg + "\n")
                 await t.new_question()
         else:
             await self.bot.say("A trivia session is already ongoing in this channel.")
@@ -142,7 +159,7 @@ class Trivia:
         lists = [l.replace(".txt", "") for l in lists]
 
         if lists:
-            msg = "+ Available trivia lists\n\n" + ", ".join(sorted(lists))
+            msg = "+ Available trivia lists\n\n" + "\n".join(sorted(lists))
             msg = box(msg, lang="diff")
             if len(lists) < 100:
                 await self.bot.say(msg)
@@ -206,8 +223,9 @@ class TriviaSession():
     def __init__(self, bot, trivia_list, message, settings):
         self.bot = bot
         self.reveal_messages = ("I know this one! {}!",
-                                "Easy: {}.",
-                                "Oh really? It's {} of course.")
+                                "Ezpz {}.",
+                                "Oh really? It's {} of course.",
+                                "Come on noobs, it's {}!")
         self.fail_messages = ("To the next one I guess...",
                               "Moving on...",
                               "I'm sure you'll know the answer of the next one.",
@@ -268,7 +286,9 @@ class TriviaSession():
             else:
                 msg = choice(self.fail_messages)
             if self.settings["BOT_PLAYS"]:
-                msg += " **+1** for me!"
+                msg += " **+1 point(s)** for me!"
+                #   CHAD
+                # msg += " " + GetRandomKaomoji()
                 self.scores[self.bot.user] += 1
             self.current_line = None
             await self.bot.say(msg)
@@ -278,9 +298,11 @@ class TriviaSession():
                 await self.new_question()
 
     async def send_table(self):
-        t = "+ Results: \n\n"
+        t = "+----- RESULTS -----\n\n"
+        rank = 1
         for user, score in self.scores.most_common():
-            t += "+ {}\t{}\n".format(user, score)
+            t += "{}.\t{}\t{}\n".format(rank, user.display_name, score)
+            rank += 1
         await self.bot.say(box(t, lang="diff"))
 
     async def check_answer(self, message):
@@ -308,7 +330,7 @@ class TriviaSession():
             self.current_line = None
             self.status = "correct answer"
             self.scores[message.author] += 1
-            msg = "You got it {}! **+1** to you!".format(message.author.name)
+            msg = "{} got it! **+1 point(s)** to you!".format(message.author.mention)
             await self.bot.send_message(message.channel, msg)
 
 
