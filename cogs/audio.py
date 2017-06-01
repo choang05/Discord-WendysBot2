@@ -129,7 +129,7 @@ class Song:
         self.url = kwargs.pop('url', None)
         self.webpage_url = kwargs.pop('webpage_url', "")
         self.duration = kwargs.pop('duration', 60)
-
+        self.queuer = kwargs.pop('queuer')
 
 class Playlist:
     def __init__(self, server=None, sid=None, name=None, author=None, url=None,
@@ -693,6 +693,7 @@ class Audio:
 
         return Playlist(**kwargs)
 
+    '''
     def _local_playlist_songlist(self, name):
         dirpath = os.path.join(self.local_playlist_path, name)
         return sorted(os.listdir(dirpath))
@@ -702,6 +703,7 @@ class Audio:
         folder, song = os.path.split(filename)
         return Song(name=song, id=filename, title=song, url=filename,
                     webpage_url=filename)
+    '''
 
     def _make_playlist(self, author, url, songlist):
         try:
@@ -1233,12 +1235,14 @@ class Audio:
 
         await self._join_voice_channel(voice_channel)
 
+    '''
     @commands.group(pass_context=True, no_pm=True)
     async def local(self, ctx):
         """Local playlists commands"""
         if ctx.invoked_subcommand is None:
             await send_cmd_help(ctx)
-
+    '''
+    '''
     @local.command(name="start", pass_context=True, no_pm=True)
     async def play_local(self, ctx, *, name):
         """Plays a local playlist"""
@@ -1292,7 +1296,8 @@ class Audio:
             return
 
         self._play_local_playlist(server, name)
-
+    '''
+    '''
     @local.command(name="list", no_pm=True)
     async def list_local(self):
         """Lists local playlists"""
@@ -1303,6 +1308,7 @@ class Audio:
                 await self.bot.say(page)
         else:
             await self.bot.say("There are no playlists.")
+    '''
 
     @commands.command(pass_context=True, no_pm=True)
     async def pause(self, ctx):
@@ -1332,13 +1338,11 @@ class Audio:
         voice_channel = author.voice_channel
 
         # Checking if playing in current server
-
         if self.is_playing(server):
             await ctx.invoke(self._queue, url=url)
             return  # Default to queue
 
         # Checking already connected, will join if not
-
         try:
             self.has_connect_perm(author, server)
         except AuthorNotConnected:
@@ -1696,10 +1700,11 @@ class Audio:
                 song_info.append("{}. {.webpage_url}".format(num, song))
 
         for num, song in enumerate(queue_song_list, len(song_info) + 1):
-            if num > 5:
-                break
+            #   song list limiter
+            # if num > 5:
+            #     break
             try:
-                song_info.append("{}. {.title}".format(num, song))
+                song_info.append("{}. ***{.title}*** added by ***{}***".format(num, song, ))
             except AttributeError:
                 song_info.append("{}. {.webpage_url}".format(num, song))
         msg += "\n***Next up:***\n" + "\n".join(song_info)
@@ -1874,7 +1879,7 @@ class Audio:
             else:
                 dur = None
             msg = ("\n**Title:** {}\n**Author:** {}\n**Uploader:** {}\n"
-                   "**Views:** {}\n**Duration:** {}\n\n<{}>".format(
+                   "**Views:** {}\n**Duration:**[{}]\n\n<{}>".format(
                        song.title, song.creator, song.uploader,
                        song.view_count, dur, song.webpage_url))
             await self.bot.say(msg.replace("**Author:** None\n", "")
