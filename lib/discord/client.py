@@ -446,10 +446,9 @@ class Client:
         while not self.is_closed:
             try:
                 yield from self.ws.poll_event()
-            except (ReconnectWebSocket, ResumeWebSocket) as e:
-                resume = type(e) is ResumeWebSocket
-                log.info('Got ' + type(e).__name__)
-                self.ws = yield from DiscordWebSocket.from_client(self, resume=resume)
+            except ResumeWebSocket:
+                log.info('Got ResumeWebsocket')
+                self.ws = yield from DiscordWebSocket.from_client(self, resume=True)
             except ConnectionClosed as e:
                 yield from self.close()
                 if e.code != 1000:
@@ -2307,7 +2306,7 @@ class Client:
             ``INVITE_SPLASH`` feature.
         region: :class:`ServerRegion`
             The new region for the server's voice communication.
-        afk_channel: :class:`Channel`
+        afk_channel: Optional[:class:`Channel`]
             The new channel that is the AFK channel. Could be ``None`` for no AFK channel.
         afk_timeout: int
             The number of seconds until someone is moved to the AFK channel.
@@ -2353,8 +2352,16 @@ class Client:
 
         fields['icon'] = icon
         fields['splash'] = splash
-        if 'afk_channel' in fields:
-            fields['afk_channel_id'] = fields['afk_channel'].id
+
+        try:
+            afk_channel = fields.pop('afk_channel')
+        except KeyError:
+            pass
+        else:
+            if afk_channel is None:
+                fields['afk_channel_id'] = afk_channel
+            else:
+                fields['afk_channel_id'] = afk_channel.id
 
         if 'owner' in fields:
             if server.owner != server.me:
@@ -3019,7 +3026,7 @@ class Client:
             overwrite = discord.PermissionOverwrite()
             overwrite.read_messages = True
             overwrite.ban_members = False
-            yield from client.edit_channel_permissions(message.channel, message.author, overwrite)
+            await client.edit_channel_permissions(message.channel, message.author, overwrite)
 
         Parameters
         -----------

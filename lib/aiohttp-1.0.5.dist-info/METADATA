@@ -6,6 +6,7 @@ Home-page: https://github.com/KeepSafe/aiohttp/
 Author: Andrew Svetlov
 Author-email: andrew.svetlov@gmail.com
 License: Apache 2
+Description-Content-Type: UNKNOWN
 Platform: UNKNOWN
 Classifier: License :: OSI Approved :: Apache Software License
 Classifier: Intended Audience :: Developers
